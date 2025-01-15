@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    width: 70vw;
+    background-color: #F3D5C0; 
+    margin: 0 auto;
+    height: 300vh;
+} */
+body{
+    background-image: url(image/обоитг.PNG);
+}
+.social{
+    width: 256px;
+}
+.header{
+    text-align: center;
+    color: #303841;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.main{
+    width: 70%;
+    margin: 0 auto;
+}
+.main p:nth-child(1){
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+.main p:nth-child(2){
+    text-align: center;
+    font-size: 1.4em;
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+    width: 1220px;
+}
+.footer{
+    /* display: block;
+    flex-direction: column;
+    justify-content: space-evenly; */
+    margin-top: 25px;    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
