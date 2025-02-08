@@ -43,9 +43,8 @@ body{
     justify-content: center;
     width: 256px;
 }
-.img{
+.image{
     box-shadow: 0 0 10px 3px rgb(255, 255, 255);
-    width: 1220px;
 }
 .footer{
     /* display: block;
